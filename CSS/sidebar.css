@@ -1,0 +1,28 @@
+.sidebar1 {
+    background: #A0805D;
+    min-height: 40%;
+    position: fixed;
+    border-radius: 4px;
+    font: 22px;
+}
+
+.side-bar-list {
+  padding-left: 15px;
+  text-align: left;
+}
+
+.side-bar-list li {
+  padding: 5px 5px 5px 0px;
+  list-style: none;
+  font-size: 20px;
+}
+
+
+.side-bar-list>li:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-left: 5px solid white;
+    color: white;
+    font-weight: bolder;
+    transform: scale(1.2);
+    padding-left: 5px;
+}
