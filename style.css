@@ -1,90 +1,79 @@
-@import url("CSS/list.css");
-@import url("CSS/sidebar.css");
-@import url("CSS/card.css");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Kanit&display=swap');
+
 
 body {
-  background-color: #3D5A6C;
-  color: #819595;
+  font-family: "Open Sans", sans-serif;
+  color: #333333;
   font-size: 16px;
-  font-weight: lighter;
-  font-family: Open-Sans;
+  background: linear-gradient(0deg, #002654 0%, #ED2939 100%);
 }
 
 h1, h2, h3 {
-  font-family: Montserrat;
-}
-
-h1 {
-  color: #C6878F;
-}
-
-h2 {
-  color: #B1B6A6;
-}
-
-h3 {
-  color: #B1B6A6;
+  font-family: "Kanit", sans-serif;
 }
 
 a {
   text-decoration: none;
-  color: #3D5A6C;
+  color: #333333;
 }
 
-a:hover {
-  color: #B1B6A6;
+p {
+  line-height: 1.5;
 }
 
-ul {
-  text-align: left;
-  line-height: 25px;
+.margin-top {
+  margin-top: 8px;
 }
 
-.intro strong {
-  color: #C6878F;
-}
-
-#profile_pic {
-  width: 140px;
-  height: 140px;
-  border-radius: 70px;
+.display-inline-block {
+  display: inline-block;
 }
 
 .container {
-  max-width: 800px;
-  margin: 0 auto;
+max-width: 800px;
+margin: 0 auto;
 }
 
-.job img {
-  width: 400px;
-  height: 300px;
-  border-radius: 3px;
-}
-
-.title-year {
+.card-white {
+  background-color: white;
+  padding: 40px;
+  border-radius: 4px;
   text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
 }
 
-.fa-file-pdf-o {
-font-size: 35px;
+.img-rounded {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  object-fit: cover;
 }
 
-#flag {
-  width: 30px;
-  height: 18px;
+.btn-blue {
+  background-color: #034C9A;
+  border-radius: 4px;
+  padding: 16px;
+  color: white;
 }
 
-#movies img {
-  width: 80px;
+.btn-blue:hover {
+  background-color: #033366;
+  transition: background-color 0.5s;
 }
 
-#pdf {
-  margin: 0px auto;
+.list-inline {
+  list-style: none;
+  padding: 0;
 }
 
-#pdf img {
-  vertical-align: bottom;
+.list-inline li {
+  display: inline-block;
+  font-size: 40px;
+  margin: 16px;
 }
 
-
-
+.list-inline i:hover {
+  color: #DE6B20;
+  transition: 0.5s;
+}
